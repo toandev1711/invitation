@@ -128,7 +128,7 @@ const GraduationDetails = () => {
             {/* Event Details */}
             <div className="flex-1 px-4 md:px-0 md:max-w-2xl mx-auto w-full mt-6 space-y-4">
                 <div
-                    className={`bg-blue-700/30 rounded-xl p-5 border border-white hover:border-blue-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-blue-700/20 transform ${
+                    className={`bg-blue-700/30 rounded-xl p-5 border border-blue-600/30 hover:border-blue-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-blue-700/20 transform ${
                         activeSection >= 0
                             ? "translate-y-0 opacity-100"
                             : "translate-y-5 opacity-0"
@@ -147,7 +147,7 @@ const GraduationDetails = () => {
                     </div>
                 </div>
                 <div
-                    className={`bg-blue-700/30 rounded-xl p-5 border border-white hover:border-blue-500/50 transition-all duration-500 hover:shadow-lg hover:shadow-blue-700/20 transform ${
+                    className={`bg-blue-700/30 rounded-xl p-5 border border-blue-600/30 hover:border-blue-500/50 transition-all duration-500 hover:shadow-lg hover:shadow-blue-700/20 transform ${
                         activeSection >= 1
                             ? "translate-y-0 opacity-100"
                             : "translate-y-5 opacity-0"
@@ -166,7 +166,7 @@ const GraduationDetails = () => {
                     </div>
                 </div>
                 <div
-                    className={`bg-blue-700/30 rounded-xl p-5 border border-white hover:border-blue-500/50 transition-all duration-700 hover:shadow-lg hover:shadow-blue-700/20 transform ${
+                    className={`bg-blue-700/30 rounded-xl p-5 border border-blue-600/30 hover:border-blue-500/50 transition-all duration-700 hover:shadow-lg hover:shadow-blue-700/20 transform ${
                         activeSection >= 2
                             ? "translate-y-0 opacity-100"
                             : "translate-y-5 opacity-0"
@@ -193,6 +193,9 @@ const GraduationDetails = () => {
             >
                 <p className="text-sm text-blue-300 mb-2 italic">
                     "Sự hiện diện của {name} là niềm vinh hạnh lớn của tui."
+                </p>
+                <p className="text-pink-400 font-medium">
+                    Hẹn gặp bạn vào ngày hôm đó nhé!
                 </p>
             </div>
         </div>
