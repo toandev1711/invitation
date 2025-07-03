@@ -4,9 +4,9 @@ import GraduationDetails from "./component/GraduationDetails";
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/invitation">
             <Routes>
-                <Route path="/graduation" element={<WelcomePage />} />
+                <Route path="/" element={<WelcomePage />} />
                 <Route path="/details" element={<GraduationDetails />} />
             </Routes>
         </BrowserRouter>

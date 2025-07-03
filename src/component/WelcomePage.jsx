@@ -73,22 +73,22 @@ const WelcomePage = () => {
 
                 {/* Titles */}
                 <h1
-                    className={`text-3xl md:text-4xl font-bold text-center mb-3 transition-all duration-700 delay-500 transform ${
+                    className={`text-2xl md:text-4xl font-bold text-center mb-3 transition-all duration-700 delay-500 transform ${
                         isLoaded
                             ? "translate-y-0 opacity-100"
                             : "translate-y-5 opacity-0"
                     }`}
                 >
-                    Chào mừng đến với
+                    Bước Chân Cuối Cùng
                 </h1>
                 <h2
-                    className={`text-4xl md:text-5xl font-bold text-center bg-gradient-to-r from-pink-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-8 transition-all duration-700 delay-700 transform ${
+                    className={`text-3xl md:text-5xl font-bold text-center bg-gradient-to-r from-pink-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-8 transition-all duration-700 delay-700 transform ${
                         isLoaded
                             ? "translate-y-0 opacity-100"
                             : "translate-y-5 opacity-0"
                     }`}
                 >
-                    Lễ Tốt Nghiệp
+                    Trên Giảng Đường
                 </h2>
 
                 {/* Description */}
